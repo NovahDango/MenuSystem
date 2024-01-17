@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\UnrealProjects\\MenuSystem\\Source\\MenuSystem\\MenuSystem.Build.cs",
+		"F:\\UnrealProjects\\MenuSystem\\Source\\MenuSystem.Target.cs",
+		"F:\\UnrealProjects\\MenuSystem\\Source\\MenuSystemEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
