@@ -365,3 +365,5 @@ FodyWeavers.xsd
 Binaries/
 Saved/
 Intermediate/
+Plugins/MulitplayerSessions/Binaries/
+Plugins/MulitplayerSessions/Intermediate/
