@@ -19,7 +19,7 @@ public:
 	UMultiplayerSessionsSubsystem();
 
 	// Handles Session Functionality. Menu Class will call these.
-	void CreateSession(int32 NumPublicCOnnections, FString MatchType);
+	void CreateSession(int32 NumPublicConnections, FString MatchType);
 	void FindSessions(int32 MaxSearchResults);
 	void JoinSession(const FOnlineSessionSearchResult& SessionResult);
 	void DestroySession();
@@ -38,7 +38,7 @@ protected:
 
 private:
 	IOnlineSessionPtr SessionInterface;
-
+	TSharedPtr<FOnlineSessionSettings> LastSessionSettings;
 	//
 	// To add to the Online Session Interface Delegate list
 	// We'll bind our MultiplayerSessionSubsystem internal callbacks to these.
