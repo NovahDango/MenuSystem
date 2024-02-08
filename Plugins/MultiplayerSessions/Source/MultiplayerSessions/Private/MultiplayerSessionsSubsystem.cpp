@@ -186,7 +186,7 @@ void UMultiplayerSessionsSubsystem::OnStartSessionComplete(FName SessionName, bo
 {
 	if (SessionInterface)
 	{
-		SessionInterface->ClearOnStartSessionCompleteDelegate_Handle(StartSessionCompleteDelegateHandle)''
+		SessionInterface->ClearOnStartSessionCompleteDelegate_Handle(StartSessionCompleteDelegateHandle);
 	}
 	MultiplayerOnStartSessionComplete.Broadcast(bWasSuccessful);
 }
